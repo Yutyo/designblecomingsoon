@@ -2,7 +2,6 @@
 <html>
  <body>
    <img class="minilogo" src="logo.png" alt=""></img>
-   <h1>Coming soon.</h1>
    <div class="hero">
      <div id="particles-js"></div>
      <script type="text/javascript" src="particles.js"></script>
@@ -31,10 +30,13 @@
     z-index:50;
     position:absolute;
     color:white;
-    width: 600px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
     height: auto;
-    padding-top: 200px;
-    padding-left: 10px;
   }
   h1 {
     z-index:50;
@@ -47,7 +49,7 @@
   }
   @media(max-width: 610px) {
     .minilogo {
-      width: 95%;
+      width: 65%;
       height: auto;
       padding-top: 100px;
     }
